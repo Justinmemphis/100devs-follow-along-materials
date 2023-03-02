@@ -1,4 +1,3 @@
-# 100devs-follow-along-materials
 <h1>100Devs Follow-Along Materials: </h1>
 
 <p>This is where I store the code I make while following along with 100Devs live class material. Course taught by Leon Noel.  Link to the course <a href="https://leonnoel.com/100devs/">here</a>.</p>
