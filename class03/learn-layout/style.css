@@ -1,0 +1,64 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main {
+	max-width: 6000px;
+	margin: 0 auto;
+	position: static;
+}
+
+.simple {
+	width: 500px;
+	margin: 20px auto;
+	border: 5px solid black;
+}
+
+.fancy {
+	width: 500px;
+	margin: 20px auto;
+	padding: 50px;
+	border: 5px solid black;
+	border-width: 10px;
+}
+
+.relative1 {
+	position: relative;
+	border: 2px solid turquoise;
+}
+
+.relative2 {
+	position: relative;
+	top: -20px;
+	left: 20px;
+	background-color: white;
+	width: 500px;
+	border: 2px solid pink;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	background-color: white;
+	border: 2px solid yellow;
+}
+
+.relative {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	border: 2px solid turquoise;
+}
+
+.absolute {
+	position: absolute;
+	top: 120px;
+	right: 0;
+	width: 300px;
+	height: 200px;
+	border: 2px solid pink;
+}
