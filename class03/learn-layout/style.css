@@ -62,3 +62,57 @@
 	height: 200px;
 	border: 2px solid pink;
 }
+
+.container {
+	position: relative;
+	border: 2px solid green;
+}
+
+nav {
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	border: 2px solid pink;
+}
+
+section {
+	/* position is static by default */
+	margin-left: 200px;
+	border: 2px solid yellow;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	background-color: white;
+	width: 100%;
+	border: 2px solid green;
+}
+
+body {
+	margin-bottom: 120px;
+}
+
+.float-box {
+	background: gray;
+}
+
+img {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+.box {
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 1em;
+	border: 2px solid green;
+}
+
+.after-box {
+	clear: left;
+}
+
