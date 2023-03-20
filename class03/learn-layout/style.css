@@ -64,6 +64,7 @@
 }
 
 .container {
+	clear: both;
 	position: relative;
 	border: 2px solid green;
 }
@@ -116,3 +117,42 @@ img {
 	clear: left;
 }
 
+.float-img {
+	float: right;
+}
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+.float-nav {
+	float: left;
+	width: 200px;
+	border: 2px solid magenta;
+}
+
+.float-section {
+	margin-left: 200px;
+	border: 2px solid gold;
+}
+
+.little-box {
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin: 1em;
+	border: 2px solid purple;
+}
+
+.after-little-box {
+	clear: left;
+}
+
+.new-box {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin: 1em;
+	border: 2px solid magenta;
+}
