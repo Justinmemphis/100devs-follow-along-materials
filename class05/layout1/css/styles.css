@@ -1,0 +1,19 @@
+header,section,footer {
+	border: 2px solid gray;
+}
+
+header {
+	height: 100px;
+}
+
+section {
+	height: 200px;
+}
+
+section + section {
+	height: 300px;
+}
+
+footer {
+	height: 100px;
+}
