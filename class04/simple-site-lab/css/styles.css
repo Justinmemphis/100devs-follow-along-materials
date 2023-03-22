@@ -2,13 +2,13 @@ body {
 	background: #87ceeb;
 	color: white;
 	font-size: 20px;
-	font-family: serif;
+	font-family: "Cambria";
 }
 
 body > section {
-	border: 5px solid #50ccad;
+	border: 5px solid #48cd31;
 	padding: 30px;
-	margin: 50px;
+	margin: 30px;
 }
 
 h1 {
@@ -40,3 +40,6 @@ a {
 	color: #50ccad;
 }
 
+span {
+	color: #808689;
+}
